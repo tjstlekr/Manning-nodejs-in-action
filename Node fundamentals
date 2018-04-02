@@ -1,0 +1,23 @@
+Node uses v8. V8 is the virtual machine that powers google chrome, for server side programming.
+V8 gives huge boost to Node in performance because it cuts out the middleware, prefering straight compilation into
+native machine code over executing bytecode or uing an interpreter
+
+-JSON is very popular data interchange format today and is native to JavaScript
+-JavaScript is the language  used in various NoSQL databases (CouchDB, MongoDB) so interfacing with them
+is natural fit. e.g., MongoDB's shell and query language is JavaScript; CouchDB's map/reduce is JavaScript
+-JavaScript is COMPILATION TARGET and there are no of languages that compile it already
+
+
+What is compilation Target?
+In natural language translation, the system is the competent human brain capable of translating between two languages.
+In programming languages, it is a compiler. Thus, the source for a compiler is the programming language (C),
+while the target is the bytecode (machine-level instructions
+
+1.2 Asynchronous and evented: the browser
+
+Node provides event driven and Asynchronous platform for server side JavaScript. It brings JavaScript
+When I/O happens in the browser, it happens outside of the event loop (outside the main script execution) and then an “event” is
+emitted when the I/O is finished, 6 which is handled by a function (often called the “callback”).
+The I/O happens asynchronously and doesn’t “block” the script execution, allowing the event
+loop to respond to whatever other interactions or requests are being performed on the page.
+This enables the browser to be responsive to the client and to handle a lot of interactivity on the page.
